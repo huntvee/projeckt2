@@ -1,0 +1,178 @@
+body {
+    background-color: #000000;
+}
+
+.card1{
+    aspect-ratio: 1/1.6;
+    border: 0.1vmin solid #dce2ff;
+    cursor: pointer;
+    position: relative;
+    width:  26vmin;
+}
+.card1:before{
+    background: linear-gradient(
+        130deg,
+        rgba(2,0,36,0) 90%,
+        rgba(0, 0, 0, 0.461)
+    );
+    background-position: 0% 0%;
+    background-size: 300% 300%;
+    content: '';
+    height: 100%;
+    left:0px;
+    position: absolute;
+    top: 0px;
+    transition: background-position 350ms ease, transform 350ms ease;
+    width: 100%;
+    z-index: 1;
+}
+.card1:hover:before {
+    background-position: 100% 100%;
+    transform: scale(1.0, 1.0);
+}
+.card1-content{
+    background-image:url(quest2.jpg);
+    background-size: cover;
+    padding: 5px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 250%;
+    transition: background-size 350ms ease;
+    width: 100%;
+    z-index: 2;
+}
+.card1:hover > .card1-content {
+    background-size: 255%;
+}
+.card1-title,
+.card1-subtitle {
+    color:white;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 400%;
+    margin: 0px;
+}
+.card1-title{
+    font-size: 6vmin;
+}
+.card1-subtitle{
+    font-size: 3vmin;
+    margin-top: 2vmin;
+}
+.card2{
+    aspect-ratio: 1/1.6;
+    border: 0.1vmin solid #dce2ff;
+    cursor: pointer;
+    position: relative;
+    width:  26vmin;
+}
+.card2:before{
+    background: linear-gradient(
+        130deg,
+        rgba(2,0,36,0) 90%,
+        rgba(0, 0, 0, 0.461) 100%
+    );
+    background-position: 0% 0%;
+    background-size: 300% 300%;
+    content: '';
+    height: 100%;
+    left:0px;
+    position: absolute;
+    top: 0px;
+    transition: background-position 350ms ease, transform 350ms ease;
+    width: 100%;
+    z-index: 1;
+}
+.card2:hover:before {
+    background-position: 100% 100%;
+    transform: scale(1.0, 1.0);
+}
+.card2-content{
+    background-image:url(quest3.jpg);
+    background-size: cover;
+    padding: 5px;
+    height: 100%;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    transition: background-size 350ms ease;
+    width: 100%;
+    z-index: 2;
+}
+.card2:hover > .card2-content {
+    background-size: 205%;
+}
+.card2-title,
+.card2-subtitle {
+    color:white;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 400%;
+    margin: 0px;
+}
+.card2-title{
+    font-size: 6vmin;
+}
+.card2-subtitle{
+    font-size: 3vmin;
+    margin-top: 2vmin;
+}
+.card3{
+    aspect-ratio: 1/1.6;
+    border: 0.1vmin solid #dce2ff;
+    cursor: pointer;
+    position: relative;
+    width:  26vmin;
+}
+.card3:before{
+    background: linear-gradient(
+        130deg,
+        rgba(2,0,36,0) 90%,
+        rgba(0, 0, 0, 0.461) 100%
+    );
+    background-position: 0% 0%;
+    background-size: 300% 300%;
+    content: '';
+    height: 100%;
+    left:0px;
+    position: absolute;
+    top: 0px;
+    transition: background-position 350ms ease, transform 350ms ease;
+    width: 100%;
+    z-index: 1;
+}
+.card3:hover:before {
+    background-position: 100% 100%;
+    transform: scale(1.0, 1.0);
+}
+.card3-content{
+    background-image:url(valve.jpg);
+    background-size: cover;
+    padding: 5px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 40%;
+    background-size:300%;
+    transition: background-size 350ms ease;
+    width: 100%;
+    z-index: 2;
+}
+.card3:hover > .card3-content {
+    background-size: 305%;
+}
+.card3-title,
+.card3-subtitle {
+    color:white;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 400%;
+    margin: 0px;
+}
+.card3-title{
+    font-size: 6vmin;
+}
+.card3-subtitle{
+    font-size: 3vmin;
+    margin-top: 2vmin;
+}
+a{
+    text-decoration: none;
+}
